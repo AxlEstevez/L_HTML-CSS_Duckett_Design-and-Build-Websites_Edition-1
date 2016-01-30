@@ -1,0 +1,63 @@
+# HTML elements are used to describe the structure of the page
+# (e.g.) headings, subheadings, paragraphs).
+
+# They also provide semantic information (e.g.) where emphasis should be
+# placed the definition of any acronyms used, when given text is a quotation).
+
+###
+
+# <h1>, <h2>,... <h6> = Heading. HTML has 6 "levels" of heading. <h1> are main headings
+# while <h2> are subheadings, along with the other sub-sub headings (3, 4, 5, 6).
+# Sizes can be modified with CSS
+
+# <p> = Paragraph. Each paragraph is on a new line with space in between
+# it an subsequent paragraphs
+
+# <b> = Bold.
+
+# <i> = Italic.
+
+# <sup> = Superscript
+
+# <sub> = Subscript
+
+# White Space. If there is more than one whitespace in an element, it is collapsed
+# to be displayed as only one space
+
+# <br /> = Line Break. New line indicator.
+
+# <hr /> = Horizontal rule. Adds a horizontal line that spans across the window.
+
+# <strong> = Strong. Indicates content has strong importance. Also makes it bold.
+
+# <em> = Emphasis. Indicates content has subtly different meaning. Also makes it italic.
+
+# <blockquote> = Block Quote. Used for longer quotes. <p> is still used in element.
+# indents entire <p>, but if should not be used solely to indent (use CSS instead).
+
+# <q> = Quote. Used for shorter quotes that can be used within <p>. Some browsers put
+# double quotation marks to indicate quote. (<q> and <blockquote> can have a "cite"
+# attribute, whose value should be a link with more information about the quote.
+
+# <abbr> Abbreviation. Intended for abbreviations or acronyms. Has a "title" parameter
+# that allows you to specify the full term.
+
+# <acronym> Acronym. Similar to <abbr>, but deprecated in HTML5. Intended for ONLY
+# acronyms in HTML4, but is generally replaced by <abbr>.
+
+# <cite> Citation. Allows you to cite the location of a referenced piece of work,
+# such as a book, film or research paper. Not intended for use with a person's name in
+# HTML5, but was sometimes done so in HTML4. Content is italicized.
+
+# <dfn> Definition. Used to indicate the defining (initial) instance of a new key term.
+# Often displays content in italics.
+
+# <address> Address. Used to contain the contact info of the author (email, phone,
+# and/or physical address). Often displays content in italics.
+
+# <ins> Insert. Shows that content has been recently inserted into a document. Content often underlined.
+# <del> Delete. Shows that content has been recently deleted. Content often has a line through it.
+
+# <s> Strikethrough. Shows content is no longer accurate or relevant, but should not be deleted.
+# Content often has a line through it.
+# <u> Underline. Older method of showing deprecation. Slowly being phased out. Underlines text.
