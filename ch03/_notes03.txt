@@ -1,0 +1,23 @@
+# There are three types of HTML lists: ordered, unordered, and definition
+
+# Ordered lists use numbers
+
+# Unordered lists use bullets
+
+# Definition lists are used to define terminology
+
+# Lists can be nested inside one another
+
+###
+
+# <ol> Ordered List.
+# <li> List Item.
+
+# <ul> Unordered List.
+# <li> List Item.
+
+# <dl> Definition List.
+# <dt> Definition Term.
+# <dd> Definition.
+
+# placing an <li> element into another <li> creates a nested lest (list inside a list).

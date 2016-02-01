@@ -5,4 +5,4 @@
 # I'm a hoarder, so I keep the practice code I write sometimes
 # I added notes and stylistic changes every now and then, but
 # other than that, there is no reason to use my code over the
-# one in th link.
+# one in the link.
