@@ -1,0 +1,76 @@
+# Whenever you want to collect information from visitors you will need a form,
+# which lives inside a form element.
+
+# Information from a form is sent in name/value pairs,
+
+# Each form control is given a name, and the text the user types or the values
+# of the options they select are sent to the server.
+
+# HTML5 introduces new form elements which make it easier for visitors to fill in forms
+
+###
+
+# <form> Form. Forms should be contained in this element.
+# action="" URL for the page on the server that will receive the information in the form.
+# method="get" values are added to end of URL specified in action.
+# method="post" values are sent as HTTP headers.
+# id=""
+
+# <input> Input. Used to create several different form controls.
+
+# type="text" creates single line input.
+# name="" identifies form control for server.
+# size="" Indicates character width of text input box. !DEPRECATED use CSS!
+# maxlength="" Limits the number of characters user can enter into the field.
+
+# type="password" acts like "text" but characters are blocked out for security
+# name=""
+# size=""
+# maxlength=""
+# Data still needs SSL for security
+
+# <textarea> Creates multi-line text input. Use CSS to control size.
+
+# type="radio" creates radio button. Only one can be selected at a time. Cannot be deselected.
+# name="" identifies set of radio buttons for server.
+# value="" value of selected option sent to server.
+# checked="checked" pre-selects the value when page loads. If not used, none selected.
+
+# type="checkbox" creates checkbox button. Multiple can be selected and deselected.
+# name=""
+# value=""
+# checked=""
+
+# <select> creates a drop down list box. Only one option can be selected
+# name=""
+# <option> creates an option for drop down menu.
+# value=""
+# selected="selected" pre-selects the value when page loads. If not used, first option is selected.
+# size="" makes drop down into a fixed sized box.
+# multiple="multiple" allows the use of ctrl/cmd keys to select multiple options.
+
+# type="file" adds browse box and button that lets users upload files. form method must be "post"
+
+# type="submit" adds text box and submit button.
+# name=""
+# value="" controls text that appears on button
+
+# type="image" allows you to use an image file instead of the default submit button.
+# can be modified as <img>
+
+# <button> allows for better customization of submit buttons.
+
+# type="hidden" allows developer to add values to forms that user cannot see.
+
+# <label> can wrap around form input and text, or be put beside input and connected to it with:
+# for=""
+
+# <fieldset> groups related form control elements together. Can be modified with CSS
+# <legend> acts as a header to <fieldset> to identify the purpose of its parts
+
+# required="required" HTML5 method that forces field to be filled
+# type="date" HTML5 method for date input
+# type="email" HTML5 method to enforce proper email format input
+# type="url" HTML5 method to enforce proper url format input
+# type="search" HTML5 method, is a modified version of submit
+# placeholder="" allows for placeholder text in search text box
